@@ -37,8 +37,8 @@
 
 #hero-mobile {
   display: none;
-  /*background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/full_illustration.png") no-repeat center bottom/cover;*/
-  height: 320px;
+  background: url("../img/start_img/new/mobile.svg") no-repeat center bottom/cover;
+  height: 520px;
 }
 
 .first-section {
@@ -63,11 +63,20 @@ p {
   line-height: 150%;
 }
 
+.p-18-0{
+    padding: 18% 0 0 0;
+}
 .p-20-10{
     padding: 18% 10% 0 10%;
 }
+.pl-4{
+    padding-left: 4%;
+}
 .pl-10{
     padding-left: 10%;
+}
+.p-10{
+    padding: 10%;
 }
 .p-15{
     padding: 15%;
