@@ -7,7 +7,7 @@
         display: block;
     }
     .img-start-story--top{
-        margin-top: -64px;
+        margin-top: -70px;
     }
     .p-tb-20{
         padding-top: .5rem;
@@ -16,6 +16,9 @@
     .container-mobile{
         padding-left: 0 !important;
         padding-right: 0 !important;
+    }
+    .hamburger{
+        padding-right: 20px !important;
     }
 
 }
