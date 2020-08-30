@@ -66,7 +66,12 @@ p {
 }
 
 .img-person-mobile{
-    padding: 12% 17% 5% 17%;
+    padding: 12% 10% 5% 10%;
+}
+
+.p-tb-20{
+    padding-top: 1.42857rem;
+    padding-bottom: 1.42857rem;
 }
 
 .p-18-0{

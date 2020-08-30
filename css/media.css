@@ -9,6 +9,15 @@
     .img-start-story--top{
         margin-top: -64px;
     }
+    .p-tb-20{
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    .container-mobile{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
 }
 
 
