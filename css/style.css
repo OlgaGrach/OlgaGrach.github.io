@@ -99,7 +99,9 @@ p {
 .layer2 {
     height: 1600px;
 }
-
+.hamburger-inner{
+    background-color: #fff;
+}
 /*.layer-bg, .layer-1, .layer-2, .layer-3, .layer-4, .layer-overlay{*/
   /*width: 120%;*/
 /*}*/
@@ -221,7 +223,7 @@ p {
 }
 
 .img-start-story--top{
-    margin-top: -115px;
+    margin-top: -130px;
 }
 
 /*======button======*/
@@ -393,6 +395,9 @@ button:hover .button-text {
 }
 .share__light-gray:hover{
     background: #bf436d;
+}
+.u-header__section .nav-link{
+    color: #fff;
 }
 
 .fs-09{

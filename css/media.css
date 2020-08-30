@@ -2,12 +2,11 @@
     #hero {
         display: none;
     }
-
     #hero-mobile {
         display: block;
     }
     .img-start-story--top{
-        margin-top: -70px;
+        margin-top: -50px;
     }
     .p-tb-20{
         padding-top: .5rem;
@@ -20,7 +19,16 @@
     .hamburger{
         padding-right: 20px !important;
     }
-
+    .u-header__section .nav-link{
+        color: #10114a;
+    }
+    .u-header__section:hover .nav-link:hover{
+        color: #bf436d;
+    }
+    body{
+        background-image: url("../img/start_img/new/fon.svg");
+        background-position: left top;
+    }
 }
 
 
