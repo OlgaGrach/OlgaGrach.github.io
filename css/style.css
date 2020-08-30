@@ -427,6 +427,10 @@ button:hover .button-text {
     margin-left: 20%;
 }
 
+.ribka-style{
+    height: 130%;
+    background-image: url(../img/ribka/riba.svg);
+}
 
 /*.u-icon-v5.g-bg-white::after {*/
     /*background-color: red !important;*/

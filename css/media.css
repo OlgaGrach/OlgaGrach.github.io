@@ -29,6 +29,16 @@
         background-image: url("../img/start_img/new/fon.svg");
         background-position: left top;
     }
+    .ribka-style{
+        height: 130%;
+        background-image: url(../img/ribka/riba_mobile.svg);
+    }
+    .display-block{
+        display: none;
+    }
+    .display-none{
+        display: block;
+    }
 }
 
 
