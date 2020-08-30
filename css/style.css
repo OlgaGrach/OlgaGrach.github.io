@@ -1,3 +1,4 @@
+@import "media.css";
 /*body {*/
   /*padding: 0;*/
   /*margin: 0;*/
@@ -37,8 +38,9 @@
 
 #hero-mobile {
   display: none;
-  background: url("../img/start_img/new/mobile.svg") no-repeat center bottom/cover;
-  height: 520px;
+  background: url("../img/start_img/new/mobile.svg") no-repeat left top/cover;
+  background-size: 235%;
+  height: 720px;
 }
 
 .first-section {
@@ -61,6 +63,10 @@ p {
   color: #000;
   font-size: 18px;
   line-height: 150%;
+}
+
+.img-person-mobile{
+    padding: 12% 17% 5% 17%;
 }
 
 .p-18-0{
@@ -123,23 +129,7 @@ p {
   background-image: url("../img/start_img/new/1.svg");
 }
 
-@media only screen and (max-width: 768px) {
-  #hero {
-    display: none;
-  }
 
-  #hero-mobile {
-    display: block;
-  }
-}
-.tutorial-link {
-  color: #000;
-  font-size: 18px;
-  text-decoration: underline;
-}
-.tutorial-link:hover {
-  color: #000;
-}
 
 
 /*==============================================*/
@@ -207,6 +197,14 @@ p {
   border-radius: 5px 5px 0 0;
 }
 
+.tutorial-link {
+    color: #000;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.tutorial-link:hover {
+    color: #000;
+}
 
 .name_story{
   background: #fff;
@@ -216,6 +214,11 @@ p {
 .name-story-index:hover{
     color: #bf436d;
 }
+
+.img-start-story--top{
+    margin-top: -115px;
+}
+
 /*======button======*/
 button {
     position: relative;
@@ -396,6 +399,9 @@ button:hover .button-text {
 .c-gray{
     color: #b0b0b0;
 }
+.c-darkGray{
+    color: #4a4a4a;
+}
 
 .mt-8{
     margin-top: 8rem;
@@ -410,6 +416,7 @@ button:hover .button-text {
 .ml-20{
     margin-left: 20%;
 }
+
 
 /*.u-icon-v5.g-bg-white::after {*/
     /*background-color: red !important;*/

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px) {
+    #hero {
+        display: none;
+    }
+
+    #hero-mobile {
+        display: block;
+    }
+    .img-start-story--top{
+        margin-top: -64px;
+    }
+}
+
+
