@@ -30,7 +30,6 @@
         background-position: left top;
     }
     .ribka-style{
-        height: 130%;
         background-image: url(../img/ribka/riba_mobile.svg);
     }
     .display-block{
@@ -38,6 +37,32 @@
     }
     .display-none{
         display: block;
+    }
+    .type-story, .new-story, .museum-person-text{
+        padding: 0 15% 0 10%;
+    }
+    .new-story{
+        margin-top: 15%;
+        margin-left: 0;
+    }
+    .type-story p, .new-story p, .museum-person-text--p{
+        margin-bottom: 1rem;
+    }
+    .ptiza-style{
+        background-image: url(../img/ptiza/fon_mobile.svg);
+    }
+    .museum-person{
+        background-image: url(../img/dragon/fon_mobile.svg);
+    }
+    .museum-person-text{
+        margin-top: 15%;
+        z-index: 20;
+    }
+    .pl-mobile{
+        padding-left: 1rem;
+    }
+    .p-15-0{
+        padding: 0.5rem 1.07143rem 1.07143rem 0;
     }
 }
 

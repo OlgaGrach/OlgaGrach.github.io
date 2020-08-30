@@ -431,7 +431,31 @@ button:hover .button-text {
     height: 130%;
     background-image: url(../img/ribka/riba.svg);
 }
-
-/*.u-icon-v5.g-bg-white::after {*/
-    /*background-color: red !important;*/
-/*}*/
+.type-story{
+    margin-top: 8%;
+}
+.type-story p{
+    margin-bottom: 3rem;
+}
+.new-story{
+    margin-top: 25%;
+    margin-left: 35%;
+}
+.new-story p{
+    margin-bottom: 3rem;
+}
+.ptiza-style{
+    height: 130%;
+    background-image: url(../img/ptiza/fon.svg);
+}
+.museum-person{
+    height: 110%;
+    background-image: url(../img/dragon/fon.svg);
+}
+.museum-person-text{
+    margin-top: 10%;
+    z-index: 20;
+}
+.museum-person-text--p{
+    margin-bottom: 3rem;
+}
