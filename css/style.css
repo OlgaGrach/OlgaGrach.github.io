@@ -78,7 +78,7 @@ p {
     padding: 18% 0 0 0;
 }
 .p-20-10{
-    padding: 18% 10% 0 10%;
+    padding: 18% 10% 2% 10%;
 }
 .pl-4{
     padding-left: 4%;
@@ -101,6 +101,9 @@ p {
 }
 .hamburger-inner{
     background-color: #fff;
+}
+.mt-story{
+    margin-top: -25px;
 }
 /*.layer-bg, .layer-1, .layer-2, .layer-3, .layer-4, .layer-overlay{*/
   /*width: 120%;*/
