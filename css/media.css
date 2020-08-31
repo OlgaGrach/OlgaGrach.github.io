@@ -24,9 +24,22 @@
         padding-top: .5rem;
         padding-bottom: .5rem;
     }
-    /*.mt-story{*/
-        /*margin-top: -40px;*/
-    /*}*/
+    .mt-story{
+        padding-bottom: 1em;
+    }
+    .type-story, .museum-person-text{
+        padding: 0 15% 0 0;
+    }
+    .new-story{
+        padding: 0 10% 0 0;
+    }
+    .new-story{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .type-story p, .new-story p, .museum-person-text--p{
+        margin-bottom: 1rem;
+    }
 }
 /*=======================================под телефоны===================================*/
 /*@media (orientation: landscape) {*/
@@ -119,7 +132,8 @@
         top: 130px;
     }
     .mt-story{
-    margin-top: -20px;
+        margin-top: -20px;
+        padding-bottom: 1em;
     }
 }
 
