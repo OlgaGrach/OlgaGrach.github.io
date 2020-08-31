@@ -426,6 +426,12 @@ button:hover .button-text {
 .ml-20{
     margin-left: 20%;
 }
+.display-block{
+    display: block;
+}
+.display-none{
+    display: none;
+}
 
 .ribka-style{
     height: 130%;
@@ -458,4 +464,10 @@ button:hover .button-text {
 }
 .museum-person-text--p{
     margin-bottom: 3rem;
+}
+
+.footer-clouds{
+    top:180px;
+    height: 130%;
+    background: url(../img/footer.svg) 50% no-repeat;
 }

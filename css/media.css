@@ -1,3 +1,29 @@
+@media only screen and (max-width: 1080px){
+    .p-20-10{
+        padding: 10% 10% 0 10%;
+    }
+}
+/*=======================================под телефоны===================================*/
+/*@media (orientation: landscape) {*/
+    /*.display-off {*/
+        /*display: block;*/
+    /*}*/
+    /*.display-on {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
+
+/*!* portrait (портретный) - это режим, в котором высота viewport больше ширины *!*/
+/*@media (orientation: portrait) {*/
+    /*.display-off {*/
+        /*display: none;*/
+    /*}*/
+    /*.display-on {*/
+        /*display: block;*/
+    /*}*/
+/*}*/
+/*=======================================================================================*/
+
 @media only screen and (max-width: 768px) {
     #hero {
         display: none;
@@ -63,6 +89,9 @@
     }
     .p-15-0{
         padding: 0.5rem 1.07143rem 1.07143rem 0;
+    }
+    .footer-clouds{
+        top:130px;
     }
 }
 
