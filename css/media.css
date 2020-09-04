@@ -40,6 +40,10 @@
     .type-story p, .new-story p, .museum-person-text--p{
         margin-bottom: 1rem;
     }
+    .dragon{
+        background-size: 120%;
+        height: 500px;
+    }
 }
 /*=======================================под телефоны===================================*/
 /*@media (orientation: landscape) {*/
