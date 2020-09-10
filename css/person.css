@@ -1,0 +1,41 @@
+@import "media.css";
+
+.layer-bg {
+    background-image: url("../img/story/cat.jpg");
+    background-position: left top;
+}
+.layer-4 {
+    margin-top: -4px;
+    background-image: url("../img/person/start.jpg");
+    /*background-size: 100%;*/
+}
+
+#hero, .layer {
+    min-height: 500px !important;
+}
+
+#hero {
+    height: 500px !important;
+}
+.footer-img-story{
+    height: 150px;
+    margin-top: 40px;
+}
+.img-start-story--top{
+    margin-top: -150px !important;
+}
+
+.person-style-block{
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #e8e8e8;
+}
+.br-dragon{
+    background: url("../img/heros/dragon.png") center no-repeat;
+    background-size: 80%;
+}
+.br-ptiza{
+    background: url("../img/heros/priza.png") center no-repeat;
+    background-size: 80%;
+}

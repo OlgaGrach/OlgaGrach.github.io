@@ -1,0 +1,18 @@
+@import "../media.css";
+
+.layer-bg {
+    background-image: url("../../img/story/cat.jpg");
+    background-position: left top;
+}
+.layer-4 {
+    background-image: url("../../img/story/start.jpg");
+}
+
+#hero, .layer {
+    min-height: 400px;
+}
+
+#hero {
+    height: 400px;
+}
+

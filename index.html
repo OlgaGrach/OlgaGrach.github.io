@@ -8,6 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans%7CMerriweather%7COpen+Sans%3A300%2C400%2C600%2C700%2C800%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/icon-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/icon-line-pro/style.css">
+    <link rel="stylesheet" href="css/icon-line/css/simple-line-icons.css">
 
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="css/icon-awesome/css/font-awesome.min.css">
@@ -53,24 +55,30 @@
     <link rel="stylesheet" href="css/styles.op-construction.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index-start-img.css">
     <link rel="stylesheet" href="css/media.css">
+    <!--book-->
+    <link rel="stylesheet" href="css/book/example.css">
+    <link rel="stylesheet" href="css/book/book.css">
+    <link rel="stylesheet" href="dflip/css/dflip.css">
+    <link rel="stylesheet" href="dflip/css/themify-icons.css">
   </head>
 
   <body id="home-section">
     <main>
       <!-- шапка -->
       <header id="js-header" class="u-header u-header--sticky-top u-header--change-appearance u-header--change-logo"
-              data-header-fix-moment="0">
-        <div class="u-header__section g-transition-0_3 g-py-7 g-py-10--md"
-             data-header-fix-moment-exclude="g-py-10--md"
-             data-header-fix-moment-classes="u-shadow-v19 g-bg-purple g-py-15--md">
+              data-header-fix-moment="0" style="margin-top: -2px">
+        <div class="u-header__section g-transition-0_3 g-py-7 g-pb-10--md"
+             data-header-fix-moment-exclude="g-pb-10--md"
+             data-header-fix-moment-classes="g-bg-img g-pb-25--md bg-purple2">
           <nav class="navbar navbar-expand-lg g-py-0">
             <div class="container g-pos-rel">
               <!-- Logo -->
-              <a href="#!" class="js-go-to navbar-brand u-header__logo color-white"
+              <a href="#!" class="js-go-to navbar-brand u-header__logo ml-5"
                  data-type="static">
-                <img class="u-header__logo-img u-header__logo-img--main g-width-30" src="img/logo.svg" alt="Image description">
-                <img class="u-header__logo-img g-width-30" src="img/logo.svg" alt="Image description">
+                <img class="u-header__logo-img u-header__logo-img--main g-width-30" src="img/logo1.svg" alt="Image description">
+                <img class="u-header__logo-img g-width-30" src="img/logo1.svg" alt="Image description">
                 <span class="font-weight-bold">Сказки</span><span>ПРО</span>
               </a>
               <!-- End Logo -->
@@ -79,13 +87,13 @@
               <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar">
                 <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-letter-spacing-1 g-font-size-12 g-pt-20 g-pt-0--lg ml-auto">
                   <!--<li class="nav-item g-mr-15&#45;&#45;lg g-mb-7 g-mb-0&#45;&#45;lg">-->
-                    <!--<a href="#home-section" class="nav-link p-0">Главная<span class="sr-only">(current)</span></a>-->
+                  <!--<a href="#home-section" class="nav-link p-0">Главная<span class="sr-only">(current)</span></a>-->
                   <!--</li>-->
                   <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
-                    <a href="#" class="nav-link p-0">Сказки</a>
+                    <a href="story.html" class="nav-link p-0">Сказки</a>
                   </li>
                   <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
-                    <a href="#" class="nav-link p-0">Персонажи</a>
+                    <a href="person.html" class="nav-link p-0">Персонажи</a>
                   </li>
                   <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
                     <a href="#" class="nav-link p-0">Сюжеты</a>
@@ -96,9 +104,9 @@
                   <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
                     <a href="#" class="nav-link p-0">Музеи сказок</a>
                   </li>
-                  <!--<li class="nav-item g-ml-15&#45;&#45;lg">-->
-                    <!--<a href="../../index.html" class="nav-link p-0">Музеи персонажей</a>-->
-                  <!--</li>-->
+                  <li class="nav-item g-mx-25--lg g-mb-7 g-mb-0--lg">
+                    <a href="#" class="nav-link p-0"></a>
+                  </li>
                 </ul>
               </div>
               <!-- End Navigation -->
@@ -149,19 +157,19 @@
                  data-nav-for="#carouselCus2">
 
               <div class="js-slide">
-                <div class="w-50 float-left p-20-10">
+                <div class="float-left p-20-10" style="width: 40%">
                   <h4 class="g-font-weight-700 g-font-size-20 mb-4">Змей Горыныч</h4>
                   <h3 class="g-font-weight-700 g-font-size-16">Знаете ли Вы, что...</h3>
                   <!--<span class="d-block g-color-text g-font-size-13">Reason: Unify Support</span>-->
                   <blockquote class="g-color-text g-font-size-default g-font-size-14--md">Горыныч от слова «гореть». Традиционно принято связывать это прозвище с понятием «гора».</blockquote>
                 </div>
-                <div class="w-50 float-right p-15">
-                  <img class="w-90 ml-5" src="img/heros/dragon.png">
+                <div class="float-right" style="width: 60%">
+                  <img class="ml-5 w-90" src="img/heros/dragon2.svg" style="margin-top: 50px">
                 </div>
                 <div class="w-100 pl-10">
                   <a href="#">
                     <button class="learn-more" style="margin-right: 15px">
-                      <div class="circle">
+                      <div class="circle bShadow-10">
                         <span class="icon arrow"></span>
                       </div>
                       <p class="button-text">Подробнее</p>
@@ -192,18 +200,18 @@
               <!--</div>-->
 
               <div class="js-slide">
-                <div class="w-50 float-left p-20-10">
+                <div class="float-left p-20-10" style="width: 40%">
                   <h4 class="g-font-weight-700 g-font-size-20 mb-4">Жар-птица</h4>
                   <h3 class="g-font-weight-700 g-font-size-16">Знаете ли Вы, что...</h3>
                   <blockquote class="g-color-text g-font-size-default g-font-size-14--md">Cказочная птица является воплощение лучезарного бога солнца и гневного бога грозы.</blockquote>
                 </div>
-                <div class="w-50 float-right p-15">
-                  <img class="w-100 ml-5" src="img/heros/priza.png">
+                <div class="float-right p-15" style="width: 60%">
+                  <img class="w-100 ml-5" src="img/heros/priza2.svg">
                 </div>
                 <div class="w-100 pl-10">
                   <a href="#">
                     <button class="learn-more" style="margin-right: 15px">
-                      <div class="circle">
+                      <div class="circle bShadow-10">
                         <span class="icon arrow"></span>
                       </div>
                       <p class="button-text">Подробнее</p>
@@ -258,7 +266,7 @@
                 <div class="w-100">
                       <a href="#">
                           <button class="learn-more">
-                              <div class="circle">
+                              <div class="circle bShadow-10">
                                   <span class="icon arrow"></span>
                               </div>
                               <p class="button-text">Подробнее</p>
@@ -300,7 +308,7 @@
                 <div class="w-100">
                   <a href="#">
                     <button class="learn-more">
-                      <div class="circle">
+                      <div class="circle bShadow-10">
                         <span class="icon arrow"></span>
                       </div>
                       <p class="button-text">Подробнее</p>
@@ -318,6 +326,14 @@
       <!--популярные сказки-->
       <img class="w-100 img-start-story--top" src="img/wave-bottom.svg">
       <section id="ourProjects" class="bg-white mt-story">
+        <div class="input-group bShadow-5 g-rounded-50 container w-50 mb-4">
+          <input class="form-control g-color-gray-dark-v4 g-placeholder-gray-dark-v3 border-0 g-rounded-left-50 g-px-20" type="email" placeholder="Название сказки или персонажа">
+          <div class="input-group-append g-bg-white border-0 g-rounded-right-50">
+            <button class="btn u-btn-primary g-width-40 g-height-40 rounded-circle" type="submit">
+              <i class="icon-magnifier"></i>
+            </button>
+          </div>
+        </div>
         <div class="g-mb-20 text-center p-tb-20">
           <!--<div class="g-max-width-770">-->
           <h2 class="g-line-height-1 g-font-weight-700 g-font-size-24 c-gray text-uppercase">Популярные сказки</h2>
@@ -328,189 +344,296 @@
           <div class="row">
             <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
               <article>
-                <div class="bg-black overflow-h section">
-                  <p class="text-style g-color-white">Описание сказки</p>
-                  <img class="img-fluid w-100" src="img/koshei/01.jpg" alt="Image description">
+                <div class="_df_thumb img-fluid" source="books/andersen.pdf" id="df_manual" thumb="img/story/07-book.jpg">
+                  <p class="text-style g-color-white">Это история о несломленном духе одной маленькой девочки, которая проходит долгий путь в поисках своего брата.
                 </div>
                 <div class="p-15-0">
-                  <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Кощей бессмертный</h4></a>
-                  <!--<a class="g-color-gray-dark-v1 g-color-primary&#45;&#45;hover text-uppercase g-font-weight-700 g-font-size-default" href="#!">Кощей бессмертный</a>-->
-                  <span class="float-right fs-09 pl-1">255</span>
-                  <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                  <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
+                  <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Снежная королева</h4></a>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
                 </div>
               </article>
             </div>
 
             <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
               <article>
-                <div class="bg-black overflow-h section">
-                  <p class="text-style g-color-white">Описание сказки</p>
-                  <img class="img-fluid w-100" src="img/redshapka/01.JPG" alt="Image description">
+                <div class="_df_thumb img-fluid" source="books/test.pdf" id="df_manual" thumb="img/redshapka/01-book.jpg">
+                  <p class="text-style g-color-white">Сказка про храброго и ловкого Ивана-царевича, который в одиночку расправился с Кощеем.
                 </div>
                 <div class="p-15-0">
                   <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Красная шапочка</h4></a>
-                  <span class="float-right fs-09 pl-1">150</span>
-                  <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                  <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
                 </div>
               </article>
             </div>
 
             <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
               <article>
-                <div class="bg-black overflow-h section">
-                  <p class="text-style g-color-white">Описание сказки</p>
-                  <img class="img-fluid w-100" src="img/kolobok/01.jpg" alt="Image description">
+                <div class="_df_thumb img-fluid" source="books/test.pdf" id="df_manual" thumb="img/kolobok/01-book.jpg">
+                  <p class="text-style g-color-white">Сказка про храброго и ловкого Ивана-царевича, который в одиночку расправился с Кощеем.
                 </div>
                 <div class="p-15-0">
                   <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Колобок</h4></a>
-                  <span class="float-right fs-09 pl-1">255</span>
-                  <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                  <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
                 </div>
               </article>
             </div>
 
             <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
               <article>
-                <div class="bg-black overflow-h section">
-                  <p class="text-style g-color-white">Описание сказки</p>
-                  <img class="img-fluid w-100" src="img/story/01.JPG" alt="Image description">
+                <div class="_df_thumb img-fluid" source="books/test.pdf" id="df_manual" thumb="img/story/01-book.jpg">
+                  <p class="text-style g-color-white">Сказка про храброго и ловкого Ивана-царевича, который в одиночку расправился с Кощеем.
                 </div>
                 <div class="p-15-0">
                   <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">О рыбаке и рыбке</h4></a>
-                  <span class="float-right fs-09 pl-1">150</span>
-                  <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                  <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
                 </div>
               </article>
             </div>
 
             <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
               <article>
-                <div class="bg-black overflow-h section">
-                  <p class="text-style g-color-white">Описание сказки</p>
-                  <img class="img-fluid w-100" src="img/story/02.JPG" alt="Image description">
+                <div class="_df_thumb img-fluid" source="books/test.pdf" id="df_manual" thumb="img/story/02-book.jpg">
+                  <p class="text-style g-color-white">Сказка про храброго и ловкого Ивана-царевича, который в одиночку расправился с Кощеем.
                 </div>
                 <div class="p-15-0">
                   <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Лиса и волк</h4></a>
-                  <span class="float-right fs-09 pl-1">255</span>
-                  <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                  <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
                 </div>
               </article>
             </div>
 
             <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
               <article>
-                <div class="bg-black overflow-h section">
-                  <p class="text-style g-color-white">Описание сказки</p>
-                  <img class="img-fluid w-100" src="img/story/03.JPG" alt="Image description">
+                <div class="_df_thumb img-fluid" source="books/test.pdf" id="df_manual" thumb="img/story/03-book.jpg">
+                  <p class="text-style g-color-white">Сказка про храброго и ловкого Ивана-царевича, который в одиночку расправился с Кощеем.
                 </div>
                 <div class="p-15-0">
                   <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Волшебник изумрудного города</h4></a>
-                  <span class="float-right fs-09 pl-1">150</span>
-                  <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                  <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
                 </div>
               </article>
             </div>
 
             <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
               <article>
-                <div class="bg-black overflow-h section">
-                  <p class="text-style g-color-white">Описание сказки</p>
-                  <img class="img-fluid w-100" src="img/story/04.jpg" alt="Image description">
+                <div class="_df_thumb img-fluid" source="books/test.pdf" id="df_manual" thumb="img/story/04-book.jpg">
+                  <p class="text-style g-color-white">Сказка про храброго и ловкого Ивана-царевича, который в одиночку расправился с Кощеем.
                 </div>
                 <div class="p-15-0">
                   <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Сказка о царе Салтане</h4></a>
-                  <span class="float-right fs-09 pl-1">255</span>
-                  <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                  <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
                 </div>
               </article>
             </div>
 
             <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
               <article>
-                <div class="bg-black overflow-h section">
-                  <p class="text-style g-color-white">Описание сказки</p>
-                  <img class="img-fluid w-100" src="img/story/05.jpg" alt="Image description">
+                <div class="_df_thumb img-fluid" source="books/test.pdf" id="df_manual" thumb="img/story/05-book.jpg">
+                  <p class="text-style g-color-white">Сказка про храброго и ловкого Ивана-царевича, который в одиночку расправился с Кощеем.
                 </div>
                 <div class="p-15-0">
                   <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Сказка о мёртвой царевне</h4></a>
-                  <span class="float-right fs-09 pl-1">150</span>
-                  <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                  <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
                 </div>
               </article>
             </div>
 
             <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
               <article>
-                <div class="bg-black overflow-h section">
-                  <p class="text-style g-color-white">Описание сказки</p>
-                  <img class="img-fluid w-100" src="img/story/06.jpg" alt="Image description">
+                <div class="_df_thumb img-fluid" source="books/test.pdf" id="df_manual" thumb="img/story/06-book.jpg">
+                  <p class="text-style g-color-white">Сказка про храброго и ловкого Ивана-царевича, который в одиночку расправился с Кощеем.
                 </div>
                 <div class="p-15-0">
                   <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Сказка о золотом петушке</h4></a>
-                  <span class="float-right fs-09 pl-1">255</span>
-                  <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                  <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
                 </div>
               </article>
-            </div>
-
-            <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
-                <article>
-                    <div class="bg-black overflow-h section">
-                        <p class="text-style g-color-white">Описание сказки</p>
-                        <img class="img-fluid w-100" src="img/kolobok/01.jpg" alt="Image description">
-                    </div>
-                    <div class="p-15-0">
-                        <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Колобок</h4></a>
-                        <span class="float-right fs-09 pl-1">255</span>
-                        <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                        <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
-                    </div>
-                </article>
             </div>
 
             <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
               <article>
-                <div class="bg-black overflow-h section">
-                  <p class="text-style g-color-white">Описание сказки</p>
-                  <img class="img-fluid w-100" src="img/story/01.JPG" alt="Image description">
+                <div class="_df_thumb img-fluid" source="books/test.pdf" id="df_manual" thumb="img/kolobok/01-book.jpg">
+                  <p class="text-style g-color-white">Сказка про храброго и ловкого Ивана-царевича, который в одиночку расправился с Кощеем.
                 </div>
                 <div class="p-15-0">
-                  <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">О рыбаке и рыбке</h4></a>
-                  <span class="float-right fs-09 pl-1">255</span>
-                  <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                  <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
+                  <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Колобок</h4></a>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
                 </div>
               </article>
             </div>
 
             <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
-                <article>
-                    <div class="bg-black overflow-h section">
-                        <p class="text-style g-color-white">Описание сказки</p>
-                        <img class="img-fluid w-100" src="img/story/02.JPG" alt="Image description">
-                    </div>
-                    <div class="p-15-0">
-                        <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Лиса и волк</h4></a>
-                        <span class="float-right fs-09 pl-1">255</span>
-                        <div class="story_like button__light-gray"><img class="w-22px" src="img/icon/like.svg"></div>
-                        <div class="story_share share__light-gray"><img class="w-22px" src="img/icon/share.svg"></div>
-                    </div>
-                </article>
+              <article>
+                <div class="_df_thumb img-fluid" source="books/test.pdf" id="df_manual" thumb="img/story/01-book.jpg">
+                  <p class="text-style g-color-white">Сказка про храброго и ловкого Ивана-царевича, который в одиночку расправился с Кощеем.
+                </div>
+                <div class="p-15-0">
+                  <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">О рыбаке и рыбке</h4></a>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-4 col-lg-4 g-mb-30 mb-5">
+              <article>
+                <div class="_df_thumb img-fluid" source="books/test.pdf" id="df_manual" thumb="img/story/02-book.jpg">
+                  <p class="text-style g-color-white">Сказка про храброго и ловкого Ивана-царевича, который в одиночку расправился с Кощеем.
+                </div>
+                <div class="p-15-0">
+                  <a href="#!"><h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute pl-mobile">Лиса и волк</h4></a>
+                  <ul class="mb-0 float-right">
+                    <li class="list-inline-item g-mr-15">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-share"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                        <i class="icon-eye align-text-top g-mr-2"></i>
+                      </a>
+                      108
+                    </li>
+                  </ul>
+                </div>
+              </article>
             </div>
 
             <div class="w-100 text-center">
-              <a href="story.html">
+              <a href="#!">
                 <button class="learn-more" style="margin-right: 15px">
-                  <div class="circle">
+                  <div class="circle bShadow-10">
                     <span class="icon arrow"></span>
                   </div>
                   <p class="button-text">Другие сказки</p>
@@ -536,7 +659,7 @@
               <p class="g-font-size-14">Сказки различаются по своему содержанию и теме. Для некоторых характерно использование загадок, трудных вопросов и мудрых ответов, другие объединяют в себе сюжеты о жестоких и глупых правителях, высмеивающие глупость, жадность и бездарность.</p>
               <a href="#">
               <button class="learn-more float-left">
-                <div class="circle">
+                <div class="circle bShadow-10">
                   <span class="icon arrow"></span>
                 </div>
                 <p class="button-text">Подробнее</p>
@@ -560,7 +683,7 @@
             <p class="g-font-size-14 color-white">Сказки – мощнейший инструмент обучения детей. Как известно, лучше всего дети воспринимают информацию, которую им подают в игровой форме. Посредством сказок они быстрее и легче понимают прописные истины в форме, рассчитанной на детское понимание.</p>
             <a href="#">
               <button class="learn-more float-left">
-                <div class="circle">
+                <div class="circle bShadow-10">
                   <span class="icon arrow"></span>
                 </div>
                 <p class="button-text g-color-white">Подробнее</p>
@@ -573,33 +696,7 @@
         </div>
       </div>
 
-     <!-- горыныч -->
-      <!--<div class="dzsparallaxer auto-init height-is-based-on-content use-loading" data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}' style="background-color: #2a2742; margin-top: -5px">-->
-        <!--<div class="divimage dzsparallaxer&#45;&#45;target mt-5 w-100 g-bg-img-hero museum-person"></div>-->
-        <!--<div class="row">-->
-          <!--<div class="container">-->
-          <!--<div class="g-mb-20 col-lg-4 position-absolute museum-person-text">-->
-            <!--<h2 class="g-line-height-1 g-font-weight-700 g-font-size-20 g-color-white mb-4">Музеи персонажей</h2>-->
-            <!--<p class="g-font-size-14 mb-3 g-color-white">Что объединяет доктора Фауста, барона Мюнхгаузена, мистера Шерлока Холмса, дядю Тома, морячка Попая и маленького принца? Дело в том, что у всех этих персонажей есть свои музеи.</p>-->
-            <!--<p class="g-font-size-14 g-color-white museum-person-text&#45;&#45;p">Для вымышленного существа и для его создателя — это великая честь. Потому что музей персонажа – наивысшее доказательство его достоверности и знак безоговорочного всенародного поклонения автору.</p>-->
-            <!--<a href="museum.html">-->
-              <!--<button class="learn-more float-left">-->
-                <!--<div class="circle">-->
-                  <!--<span class="icon arrow"></span>-->
-                <!--</div>-->
-                <!--<p class="button-text g-color-white">Подробнее</p>-->
-              <!--</button>-->
-            <!--</a>-->
-          <!--</div>-->
-          <!--</div>-->
-          <!--&lt;!&ndash;<div class="text-center w-100">&ndash;&gt;-->
-            <!--<div class="divimage dzsparallaxer&#45;&#45;target mt-5 w-100 g-bg-img-hero footer-clouds"></div>-->
-            <!--<img class="w-100 display-block" src="img/dragon/dragon.svg">-->
-            <!--<img class="w-100 display-none" src="img/dragon/dragon_mobile.svg">-->
-          <!--&lt;!&ndash;</div>&ndash;&gt;-->
-        <!--</div>-->
-      <!--</div>-->
-        <div class="dragon">
+      <div class="dragon">
             <div class="container">
                 <div class="g-mb-20 col-lg-4 position-absolute museum-person-text">
                     <h2 class="g-line-height-1 g-font-weight-700 g-font-size-20 g-color-white mb-4">Музеи персонажей</h2>
@@ -607,7 +704,7 @@
                     <p class="g-font-size-14 g-color-white museum-person-text&#45;&#45;p">Для вымышленного существа и для его создателя — это великая честь. Потому что музей персонажа – наивысшее доказательство его достоверности и знак безоговорочного всенародного поклонения автору.</p>
                     <a href="#">
                     <button class="learn-more float-left">
-                        <div class="circle">
+                        <div class="circle bShadow-10">
                             <span class="icon arrow"></span>
                         </div>
                         <p class="button-text g-color-white">Подробнее</p>
@@ -655,7 +752,7 @@
                     </span>
                   </div>
                   <div class="media-body">
-                    <p class="g-font-size-14">olga.k87@list.ru</p>
+                    <p class="g-font-size-14">skazki@pro.ru</p>
                   </div>
                 </div>
                 <!-- End Icon Block -->
@@ -664,28 +761,28 @@
                 <!-- Social Icons -->
                 <h5 class="ml-20">Социальные сети</h5>
 
-                <ul class="list-inline mb-0 ml-20">
-                  <li class="list-inline-item g-mx-2">
-                    <a class="u-icon-v1 u-icon-size--sm bg-purple g-bg-primary--hover g-font-size-13 rounded-circle" href="https://www.facebook.com/htmlstream">
-                      <i class="g-color-white fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item g-mx-2">
-                    <a class="u-icon-v1 u-icon-size--sm bg-purple g-bg-primary--hover g-font-size-13 rounded-circle" href="https://twitter.com/htmlstream">
-                      <i class="g-color-white fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item g-mx-2">
-                    <a class="u-icon-v1 u-icon-size--sm bg-purple g-bg-primary--hover g-font-size-13 rounded-circle" href="https://github.com/htmlstream">
-                      <i class="g-color-white fa fa-github"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item g-mx-2">
-                    <a class="u-icon-v1 u-icon-size--sm bg-purple g-bg-primary--hover g-font-size-13 rounded-circle" href="https://dribbble.com/htmlstream">
-                      <i class="g-color-white fa fa-dribbble"></i>
-                    </a>
-                  </li>
-                </ul>
+                  <ul class="list-inline mb-0 ml-20">
+                    <li class="list-inline-item g-mx-2">
+                      <a class="bShadow-10 u-icon-v1 u-icon-size--sm bg-purple g-bg-primary--hover g-font-size-13 rounded-circle" href="https://www.facebook.com/htmlstream">
+                        <i class="g-color-white fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item g-mx-2">
+                      <a class="bShadow-10 u-icon-v1 u-icon-size--sm bg-purple g-bg-primary--hover g-font-size-13 rounded-circle" href="https://twitter.com/htmlstream">
+                        <i class="g-color-white fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item g-mx-2">
+                      <a class="bShadow-10 u-icon-v1 u-icon-size--sm bg-purple g-bg-primary--hover g-font-size-13 rounded-circle" href="https://github.com/htmlstream">
+                        <i class="g-color-white fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item g-mx-2">
+                      <a class="bShadow-10 u-icon-v1 u-icon-size--sm bg-purple g-bg-primary--hover g-font-size-13 rounded-circle" href="https://dribbble.com/htmlstream">
+                        <i class="g-color-white fa fa-dribbble"></i>
+                      </a>
+                    </li>
+                  </ul>
                 <!-- End Social Icons -->
               </div>
            </div>
@@ -1049,5 +1146,30 @@
             }, 200);
         });
     </script>
+
+    <!--book-->
+    <!--<script src="js/book/libs/jquery.min.js" type="text/javascript"></script>-->
+    <script src="js/book/dflip.js" type="text/javascript"></script>
+    <script src="js/book/libs/pdf.js" type="text/javascript"></script>
+
+    <script>
+        var option_df_images = {
+            source:['books/thumbs/alice.jpg', 'books/thumbs/dflip.jpg' , 'books/thumbs/nightangle.jpg']
+        };
+    </script>
+
+    <style>
+      #df_book_custom{
+        color:#ddd;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      .upper-fold{
+        height: 100%;
+      }
+      .df-container{
+        background-image: url("img/story/07.jpg");
+      }
+    </style>
   </body>
 </html>

@@ -66,6 +66,7 @@
 
             var $this = $(el);
 
+
             if(!(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent))) {
               if (!$this.data('HSAnimationElement')) {
                 $this.data('HSAnimationElement', new HSAnimationElement($this, self.config));
