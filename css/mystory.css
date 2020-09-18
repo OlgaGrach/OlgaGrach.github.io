@@ -1,0 +1,120 @@
+@import "media.css";
+
+#hero {
+    height: 500px!important;
+    overflow: hidden;
+    position: relative;
+}
+
+#content {
+    background-color: #fff;
+}
+
+.layer {
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    z-index: -1;
+}
+.layer2 {
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1600px;
+    position: fixed;
+    z-index: -1;
+}
+
+#hero-mobile {
+    display: none;
+    background: url("../img/start_img/new/mobile.svg") no-repeat left top/cover;
+    background-size: 235%;
+    height: 598px;
+}
+
+#hero, .layer {
+    min-height: 500px !important;
+}
+/*.layer2 {*/
+/*height: 1600px;*/
+/*}*/
+.hamburger-inner{
+    background-color: #fff;
+}
+.mt-story{
+    margin-top: -25px;
+    padding-bottom: 3em;
+}
+/*.layer-bg, .layer-1, .layer-2, .layer-3, .layer-4, .layer-overlay{*/
+/*width: 120%;*/
+/*}*/
+
+
+.layer-bg {
+    background-image: url("../img/story/cat-anime.gif");
+    background-position: left top;
+    background-size: 180%;
+}
+
+.layer-1 {
+    background-image: url("../img/start_img/new/3.svg");
+    /*background-position: left bottom;*/
+}
+
+.layer-2 {
+    background-image: url("../img/start_img/new/3.svg");
+    /*background-position: left bottom;*/
+}
+
+.layer-3 {
+    background-image: url("../img/koshei/fon-anime.gif");
+    background-size: 100%;
+    /*background-position: right bottom;*/
+}
+
+.layer-overlay {
+    background-image: url("../img/start_img/new/2.svg");
+}
+
+.layer-4 {
+background-image: url("../img/koshei/plan-anime.png");
+}
+
+. img-start-story--top{
+    margin-top: -150px !important;
+}
+
+.p-10-0{
+    padding-top: 15%;
+}
+
+.fon-img{
+    height: 130%;
+    background-image: url(../img/redshapka/fon.jpg);
+}
+.plan-img{
+    height: 130%;
+    background-image: url(../img/redshapka/plan3.jpg);
+    background-size: 100%;
+}
+.plan-img-right{
+    height: 130%;
+    background: url(../img/redshapka/plan4.jpg) right;
+    background-size: 160%;
+}
+.plan-img-left{
+    height: 130%;
+    background: url(../img/redshapka/plan4.jpg) left;
+    background-size: 100%;
+}
+.new-story{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.u-header__section .nav-link {
+    color: #fff;
+}

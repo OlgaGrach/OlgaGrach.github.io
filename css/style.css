@@ -49,8 +49,11 @@ h1 {
   line-height: 120%;
   margin-bottom: 30px;
 }
+/*.p-15-0{*/
+    /*padding: 1.07143rem 1.07143rem 1.07143rem 0;*/
+/*}*/
 .p-15-0{
-    padding: 1.07143rem 1.07143rem 1.07143rem 0;
+    padding: 0.5rem 1.07143rem 1.07143rem 0;
 }
 p {
   color: #000;
@@ -247,8 +250,9 @@ button.learn-more .circle {
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background: #bf436d;
+    background: none;
     border-radius: 1.625rem;
+    border: 3px solid #bf436d;
 }
 button.learn-more .circle .icon {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -256,7 +260,7 @@ button.learn-more .circle .icon {
     top: 0;
     bottom: 0;
     margin: auto;
-    background: #fff;
+    background: #bf436d;
 }
 button.learn-more .circle .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -272,8 +276,8 @@ button.learn-more .circle .icon.arrow::before {
     right: 0.0625rem;
     width: 0.625rem;
     height: 0.625rem;
-    border-top: 0.125rem solid #fff;
-    border-right: 0.125rem solid #fff;
+    border-top: 0.125rem solid #bf436d;
+    border-right: 0.125rem solid #bf436d;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
@@ -297,12 +301,12 @@ button:hover .circle {
     width: 100%;
 }
 button:hover .circle .icon.arrow {
-    background: #fff;
+    background: #bf436d;
     -webkit-transform: translate(1rem, 0);
     transform: translate(1rem, 0);
 }
 button:hover .button-text {
-    color: #fff;
+    color: #bf436d;
 }
 
 .section, .story_like{
@@ -311,6 +315,9 @@ button:hover .button-text {
 
 .br-5{
     border-radius: 5px;
+}
+.mb-6{
+    margin-bottom: 4rem !important;
 }
 
 .text-style{
@@ -408,6 +415,9 @@ button:hover .button-text {
 .c-gray{
     color: #b0b0b0;
 }
+.c-gray-light{
+    color: #d5d5d5;
+}
 .c-darkGray{
     color: #4a4a4a;
 }
@@ -448,6 +458,9 @@ button:hover .button-text {
 }
 .w-90{
     width: 90%;
+}
+.br-20px{
+    border-radius: 20px;
 }
 .br-50{
     border-radius: 50%;
@@ -520,4 +533,14 @@ button:hover .button-text {
 }
 .bShadow-5,.bShadow-5h:hover{
     box-shadow:rgba(0, 0, 0, 0.10) 0px 2px 7px 0px;
+}
+.mr--20{
+    margin-right: -20px;
+}
+.g-brd-10{
+    background: white;
+    border-width: 3px !important;
+}
+.br-20{
+    border-radius: 1.5rem;
 }
