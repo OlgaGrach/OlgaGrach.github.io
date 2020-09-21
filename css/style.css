@@ -439,6 +439,12 @@ button:hover .button-text {
 .bg-purple {
     background-color: #bf436d;
 }
+.g-bg-primary--hover:hover {
+    background-color: #bf436d !important;
+}
+.b-purple {
+    border: 2px solid #bf436d;
+}
 .bg-purple2 {
     background-color: #352166 !important;
 }
@@ -543,4 +549,12 @@ button:hover .button-text {
 }
 .br-20{
     border-radius: 1.5rem;
+}
+.footer-img-story {
+    height: 300px;
+    margin-top: 40px;
+}
+.footer-img-person{
+    height: 300px;
+    margin-top: 40px;
 }

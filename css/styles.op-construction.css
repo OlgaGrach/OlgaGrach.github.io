@@ -2946,8 +2946,9 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
 
 /* Button Primary */
 .u-btn-primary {
-  color: #fff;
-  background-color: #bf436d;
+  color: #bf436d;
+  border: 3px solid #bf436d;
+  background-color: #fff;
 }
 
 .u-btn-primary:hover, .u-btn-primary.active {
@@ -28584,9 +28585,7 @@ pre[class*="language-"] .toolbar-item a {
   background-color: #bf436d !important;
 }
 
-.g-bg-primary--hover:hover {
-  background-color: #bf436d !important;
-}
+
 
 .u-block-hover:hover .g-bg-primary--hover {
   background-color: #bf436d;
