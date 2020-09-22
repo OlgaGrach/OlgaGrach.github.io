@@ -357,16 +357,33 @@ button:hover .button-text {
     overflow: hidden;
 }
 
+.section img{
+    border-radius: 20px 20px 20px 0;
+    transition: border-radius 0.35s, transform 0.35s;
+}
+
 .section:hover img{
     opacity: .3;
-    transform: translate3d(5%, 0, 0);
-    -webkit-transform: translate3d(5%, 0, 0);
-    transform: translate3d(5%, 0, 0);
-    transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
-      -webkit-transform: translate3d(5%, 0, 0);
-              transform: translate3d(5%, 0, 0);
+    border-radius: 0 20px 20px 0;
+
+    /*-webkit-transform: perspective(200) rotateY(0deg);*/
+    -webkit-transform: rotateY(-20deg) rotateZ(0deg);
+    transform-origin: left bottom;
+    box-shadow: 3px 0 12px rgba(0, 0, 0, 0.60);
+    transition: border-radius 0.35s, transform 0.35s;
+
+
+
+
+    /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);*/
+
+    /*transform: scale(1.1);*/
+    /*transform: translate3d(5%, 0, 0);*/
+    /*transition: opacity 0.35s, -webkit-transform 0.35s;*/
+    /*transition: opacity 0.35s, transform 0.35s;*/
+    /*transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;*/
+      /*-webkit-transform: translate3d(5%, 0, 0);*/
+              /*transform: translate3d(5%, 0, 0);*/
 }
 
 .section:hover p{
@@ -550,11 +567,14 @@ button:hover .button-text {
 .br-20{
     border-radius: 1.5rem;
 }
-.footer-img-story {
-    height: 300px;
-    margin-top: 40px;
-}
-.footer-img-person{
-    height: 300px;
-    margin-top: 40px;
+/*.footer-img-story {*/
+    /*height: 300px;*/
+    /*margin-top: 40px;*/
+/*}*/
+/*.footer-img-person{*/
+    /*height: 300px;*/
+    /*margin-top: 40px;*/
+/*}*/
+.mt--200{
+    margin-top: -200px;
 }
