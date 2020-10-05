@@ -70,12 +70,12 @@
 }
 
 .layer-3 {
-  background-image: url("../img/start_img/new/3.svg");
+  background-image: url("../img/start_img/start-img2.png");
   /*background-position: right bottom;*/
 }
 
 .layer-overlay {
-    background-image: url("../img/start_img/new/2.svg");
+    background-image: url("../img/start_img/oblaka.svg");
 }
 
 

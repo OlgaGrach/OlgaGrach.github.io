@@ -2053,10 +2053,10 @@
   border-color: #ccc !important; }
 
 .g-brd-gray-light-v2--before::before {
-  border-color: #ccc !important; }
+  border-color: none !important; }
 
 .g-brd-gray-light-v2--after::after {
-  border-color: #ccc !important; }
+  border-color: none !important; }
 
 .g-brd-gray-light-v2--hover:hover, .g-brd-gray-light-v2--active.active {
   border-color: #ccc !important; }

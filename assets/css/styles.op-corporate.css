@@ -14865,18 +14865,18 @@ input[type="radio"]:checked + * .g-show-check {
   font-size: 0;
 }
 
-.u-dot-line-v1::before, .u-dot-line-v1::after,
-.u-dot-line-v1-2::before,
-.u-dot-line-v1-2::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  display: block;
-  width: calc(50% + 30px);
-  border-top-width: 1px;
-  border-top-style: solid;
-  margin-top: -1px;
-}
+/*.u-dot-line-v1::before, .u-dot-line-v1::after,*/
+/*.u-dot-line-v1-2::before,*/
+/*.u-dot-line-v1-2::after {*/
+  /*content: "";*/
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*display: block;*/
+  /*width: calc(50% + 30px);*/
+  /*border-top-width: 1px;*/
+  /*border-top-style: solid;*/
+  /*margin-top: -1px;*/
+/*}*/
 
 .u-dot-line-v1::before,
 .u-dot-line-v1-2::before {
@@ -30798,11 +30798,11 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .g-brd-gray-light-v2--before::before {
-  border-color: #ccc !important;
+  border-color: none !important;
 }
 
 .g-brd-gray-light-v2--after::after {
-  border-color: #ccc !important;
+  border-color: none !important;
 }
 
 .g-brd-gray-light-v2--hover:hover, .g-brd-gray-light-v2--active.active {
@@ -34572,7 +34572,7 @@ pre[class*="language-"] .toolbar-item a {
 
 /* Black Colors */
 .g-color-black {
-  color: #000 !important;
+  color: #ffffff !important;
 }
 
 .g-color-black--hover:hover {

@@ -30797,11 +30797,11 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .g-brd-gray-light-v2--before::before {
-  border-color: #ccc !important;
+  border-color: none !important;
 }
 
 .g-brd-gray-light-v2--after::after {
-  border-color: #ccc !important;
+  border-color: none !important;
 }
 
 .g-brd-gray-light-v2--hover:hover, .g-brd-gray-light-v2--active.active {
@@ -34571,7 +34571,7 @@ pre[class*="language-"] .toolbar-item a {
 
 /* Black Colors */
 .g-color-black {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 .g-color-black--hover:hover {

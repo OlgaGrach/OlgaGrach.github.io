@@ -12037,17 +12037,17 @@ input[type="radio"]:checked + * .g-show-check {
   width: 100%;
   font-size: 0; }
 
-.u-dot-line-v1::before, .u-dot-line-v1::after,
-.u-dot-line-v1-2::before,
-.u-dot-line-v1-2::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  display: block;
-  width: calc(50% + 30px);
-  border-top-width: 1px;
-  border-top-style: solid;
-  margin-top: -1px; }
+/*.u-dot-line-v1::before, .u-dot-line-v1::after,*/
+/*.u-dot-line-v1-2::before,*/
+/*.u-dot-line-v1-2::after {*/
+  /*content: "";*/
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*display: block;*/
+  /*width: calc(50% + 30px);*/
+  /*border-top-width: 1px;*/
+  /*border-top-style: solid;*/
+  /*margin-top: -1px; }*/
 
 .u-dot-line-v1::before,
 .u-dot-line-v1-2::before {
