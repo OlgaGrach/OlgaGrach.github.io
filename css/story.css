@@ -22,7 +22,7 @@
     /*margin-top: 40px;*/
 /*}*/
 .img-start-story--top{
-    margin-top: -150px !important;
+    margin-top: -130px !important;
 }
 
 .p-15-0{
@@ -30,3 +30,16 @@
     padding: 0 1.07143rem 0 0;
 }
 
+#hero-mobile {
+    display: none;
+    background: url("../img/start_img/mobile.jpg") no-repeat left top/cover;
+    background-size: 170%;
+    height: 150px;
+}
+.hamburger-inner{
+    background-color: #bf436d;
+}
+
+.mt-story{
+    margin-top: 150px;
+}
