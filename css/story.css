@@ -1,5 +1,11 @@
 @import "media.css";
 
+body{
+    background-image: url("../img/story/cat-anime.gif");
+    background-size: 300%;
+    background-position: left top;
+}
+
 .layer-bg {
     background-image: url("../img/story/cat-anime.gif");
     background-position: left top;
@@ -32,9 +38,9 @@
 
 #hero-mobile {
     display: none;
-    background: url("../img/start_img/mobile.jpg") no-repeat left top/cover;
-    background-size: 170%;
-    height: 150px;
+    background: url("../img/story/start-mobile.jpg") no-repeat left top/cover;
+    background-size: 100%;
+    height: 250px;
 }
 .hamburger-inner{
     background-color: #bf436d;

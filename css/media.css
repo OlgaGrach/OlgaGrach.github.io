@@ -139,7 +139,7 @@
         display: block;
     }
     .img-start-story--top{
-        margin-top: -140px !important;
+        margin-top: -190px !important;
     }
     .p-tb-20{
         padding-top: .5rem;
@@ -154,10 +154,10 @@
     .u-header__section:hover .nav-link:hover{
         color: #bf436d;
     }
-    body{
-        background-image: url("../img/start_img/new/fon.svg");
-        background-position: left top;
-    }
+    /*body{*/
+        /*background-image: url("../img/start_img/new/fon.svg");*/
+        /*background-position: left top;*/
+    /*}*/
     .ribka-style{
         background-image: url(../img/ribka/riba_mobile.svg);
     }
@@ -196,8 +196,11 @@
     .footer-clouds{
         top: 130px;
     }
+    .mt-story-index{
+        margin-top: -70px;
+    }
     .mt-story{
-        margin-top: -60px;
+        margin-top: -90px;
         padding-bottom: 1em;
     }
     .dragon{
@@ -209,7 +212,7 @@
         width: 90%;
     }
     .pt-media{
-        padding-top: 100px;
+        padding-top: 50px;
     }
     ._df_book-cover{
         height: 230px !important;
@@ -228,8 +231,12 @@
         margin-left: -20px;
     }
     .img-start-index--top{
-        margin-top: -70px !important;
+        margin-top: -100px !important;
     }
+    /*.bg-info-story{*/
+        /*background-image: url("../img/story/cat-anime.gif");*/
+        /*background-position: left top;*/
+    /*}*/
 }
 
 

@@ -1,5 +1,10 @@
 @import "media.css";
 
+body{
+  background-image: url("../img/start_img/new/fon.svg");
+  background-position: left top;
+}
+
 #hero {
   height: 800px!important;
   overflow: hidden;
