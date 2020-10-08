@@ -66,6 +66,9 @@
     .img-start-story--top{
         margin-top: -300px !important;
     }
+    .img-start-index--top{
+        margin-top: -50px !important;
+    }
     #hero, .layer {
         min-height: 350px !important;
     }
@@ -108,9 +111,6 @@
         padding-left: 20px;
         background: rgba(255, 255, 255, .9);
     }
-    .mt-story{
-        margin-top: -150px !important;
-    }
 }
 
 /*=======================================под телефоны===================================*/
@@ -139,7 +139,7 @@
         display: block;
     }
     .img-start-story--top{
-        margin-top: -50px;
+        margin-top: -140px !important;
     }
     .p-tb-20{
         padding-top: .5rem;
@@ -209,7 +209,7 @@
         width: 90%;
     }
     .pt-media{
-        padding-top: 50px;
+        padding-top: 100px;
     }
     ._df_book-cover{
         height: 230px !important;
@@ -226,6 +226,9 @@
     }
     .hamburger-box{
         margin-left: -20px;
+    }
+    .img-start-index--top{
+        margin-top: -70px !important;
     }
 }
 
