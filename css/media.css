@@ -43,25 +43,28 @@
 
 @media only screen and (max-width: 1080px){
     .p-20-10{
-        padding: 10% 5% 0 0;
+        padding: 10% 0 0 10%;
+    }
+    .ml-mobile{
+        margin-left: 10% !important;
     }
     .p-15{
-        padding: 10%;
+        padding: 0%;
     }
     .pl-10{
         padding-left: 0;
     }
     #hero {
-        height: 350px;
+        height: 350px !important;
     }
     .layer {
-        height: 400px;
+        height: 400px !important;
     }
     .img-start-story--top{
         margin-top: -30px;
     }
     #hero, .layer {
-        min-height: 350px;
+        min-height: 350px !important;
     }
     .p-tb-20{
         padding-top: .5rem;
@@ -70,12 +73,12 @@
     .mt-story{
         padding-bottom: 1em;
     }
-    .type-story, .museum-person-text{
-        padding: 0 15% 0 0;
+    .type-story, .new-story, .museum-person-text{
+        padding: 0 10% 0 10%;
     }
-    .new-story{
-        padding: 0 10% 0 0;
-    }
+    /*.new-story{*/
+        /*padding: 0 10% 0 0;*/
+    /*}*/
     .new-story{
         margin-top: 0;
         margin-left: 0;
@@ -91,11 +94,8 @@
 
 /*=======================================под телефоны===================================*/
 /*@media (orientation: landscape) {*/
-    /*.display-off {*/
-        /*display: block;*/
-    /*}*/
-    /*.display-on {*/
-        /*display: none;*/
+    /*.navbar-toggler{*/
+        /*margin-left: -20px;*/
     /*}*/
 /*}*/
 
