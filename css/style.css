@@ -29,12 +29,12 @@
   z-index: -1;
 }
 
-#hero-mobile {
-  display: none;
-  background: url("../img/start_img/new/mobile.svg") no-repeat left top/cover;
-  background-size: 235%;
-  height: 598px;
-}
+/*#hero-mobile {*/
+  /*display: none;*/
+  /*background: url("../img/start_img/new/mobile.svg") no-repeat left top/cover;*/
+  /*background-size: 235%;*/
+  /*height: 598px;*/
+/*}*/
 
 .first-section {
   padding: 50px 0 20px 0;
@@ -601,4 +601,8 @@ button:hover .button-text {
     background: rgba(191,67,109,.2);
     border-radius: 20px;
     padding: 30px 20px 20px 20px;
+}
+
+.block-search{
+    width: 50%;
 }

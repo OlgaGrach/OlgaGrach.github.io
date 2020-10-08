@@ -31,8 +31,8 @@
 
 #hero-mobile {
   display: none;
-  background: url("../img/start_img/new/mobile.svg") no-repeat left top/cover;
-  background-size: 235%;
+  background: url("../img/start_img/mobile.jpg") no-repeat left top/cover;
+  background-size: 170%;
   height: 598px;
 }
 
@@ -43,7 +43,7 @@
     /*height: 1600px;*/
 /*}*/
 .hamburger-inner{
-    background-color: #fff;
+    background-color: #bf436d;
 }
 .mt-story{
     margin-top: -25px;
@@ -85,4 +85,8 @@
 
 . img-start-story--top{
     margin-top: -150px !important;
+}
+
+.img-person-mobile{
+  padding: 12% 0 0 0;
 }
