@@ -83,7 +83,7 @@
               <!-- End Logo -->
 
               <!-- Navigation -->
-              <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar">
+              <div class="collapse navbar-collapse align-items-center flex-sm-row hamburger-mobile-media" id="navBar">
                 <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-letter-spacing-1 g-font-size-12 g-pt-20 g-pt-0--lg ml-auto">
                   <!--<li class="nav-item g-mr-15&#45;&#45;lg g-mb-7 g-mb-0&#45;&#45;lg">-->
                   <!--<a href="#home-section" class="nav-link p-0">Главная<span class="sr-only">(current)</span></a>-->
@@ -141,6 +141,11 @@
           <h2 class="g-line-height-1 g-font-weight-700 g-font-size-40 color-purplelite text-uppercase">Музеи сказок</h2>
         </div>
       </div>
+      <div id='hero-mobile'>
+        <div class="container text-center" style="padding-top: 70px">
+          <h2 class="g-line-height-1 g-font-weight-700 g-font-size-40 color-purple text-uppercase">Музеи сказок</h2>
+        </div>
+      </div>
       <img class="w-100 img-start-story--top" src="img/wave-bottom.svg">
 
       <section class="bg-white mt-story">
@@ -158,23 +163,11 @@
                 </div>
                 </a>
               </article>
-              <!--<script src="jquery.min.js" type="text/javascript"></script>-->
-              <!--<article>-->
-                <!--<a href="#" class="js-open-modal" data-modal="1">-->
-                <!--<div class="overflow-h section">-->
-                  <!--&lt;!&ndash;<p class="text-style g-color-white">Стоит произнести всего два слова – «Жили-были…» – и дети уже навострят уши, готовясь услышать сказку. А в Доме сказок можно еще и самому оказаться сказочным персонажем, примерив на себя его костюм во время театрализованных экскурсий.</p>&ndash;&gt;-->
-                  <!--<img class="img-fluid w-100 br-20" src="img/museum/domskazok1.JPG" alt="Image description">-->
-                <!--</div>-->
-                <!--<div class="p-15-0">-->
-                  <!--<h4 class="name-story-index g-font-weight-700 g-font-size-15 position-absolute">Дом сказок «Жили-были» (Москва)</h4>-->
-                <!--</div>-->
-                <!--</a>-->
-              <!--</article>-->
             </div>
 
-            <div class="col-md-4 g-mb-30 g-mb-0--md mb-6">
+            <div class="col-12 col-lg-4 g-mb-30 g-mb-0--md mb-6">
               <article>
-                <a href="#" class="js-open-modal" data-modal="1">
+                <a href="#!" class="" data-modal="1">
                   <div class="_df_thumb img-fluid" thumb="img/museum/skazkadom.JPG">
                     <!--<p class="text-style g-color-white">Это история о несломленном духе одной маленькой девочки, которая проходит долгий путь в поисках своего брата.</p>-->
                   </div>
@@ -185,9 +178,9 @@
               </article>
             </div>
 
-            <div class="col-md-4 g-mb-30 mb-6">
+            <div class="col-12 col-lg-4 g-mb-30 mb-6">
               <article>
-                <a href="#" class="js-open-modal" data-modal="1">
+                <a href="#!" class="" data-modal="1">
                   <div class="_df_thumb img-fluid" thumb="img/museum/polanaskazok.jpg">
                     <!--<p class="text-style g-color-white">Это история о несломленном духе одной маленькой девочки, которая проходит долгий путь в поисках своего брата.</p>-->
                   </div>
@@ -198,9 +191,9 @@
               </article>
             </div>
 
-            <div class="col-md-4 g-mb-30 mb-6">
+            <div class="col-12 col-lg-4 g-mb-30 mb-6">
               <article>
-                <a href="#" class="js-open-modal" data-modal="1">
+                <a href="#!" class="" data-modal="1">
                   <div class="_df_thumb img-fluid" thumb="img/museum/snegurochka.jpg">
                     <!--<p class="text-style g-color-white">Это история о несломленном духе одной маленькой девочки, которая проходит долгий путь в поисках своего брата.</p>-->
                   </div>
@@ -211,9 +204,9 @@
               </article>
             </div>
 
-            <div class="col-md-4 g-mb-30 mb-6">
+            <div class="col-12 col-lg-4 g-mb-30 mb-6">
               <article>
-                <a href="#" class="js-open-modal" data-modal="1">
+                <a href="#!" class="" data-modal="1">
                   <div class="_df_thumb img-fluid" thumb="img/museum/roshdenie.jpg">
                     <!--<p class="text-style g-color-white">Это история о несломленном духе одной маленькой девочки, которая проходит долгий путь в поисках своего брата.</p>-->
                   </div>
@@ -224,9 +217,9 @@
               </article>
             </div>
 
-            <div class="col-md-4 g-mb-30 g-mb-0--md mb-6">
+            <div class="col-12 col-lg-4 g-mb-30 g-mb-0--md mb-6">
               <article>
-                <a href="#" class="js-open-modal" data-modal="1">
+                <a href="#!" class="" data-modal="1">
                   <div class="_df_thumb img-fluid" thumb="img/museum/domskazok1.JPG">
                     <!--<p class="text-style g-color-white">Это история о несломленном духе одной маленькой девочки, которая проходит долгий путь в поисках своего брата.</p>-->
                   </div>
@@ -345,13 +338,15 @@
       <!-- Подложка под модальным окном -->
       <div class="overlay js-overlay-modal overflow-auto">
           <div class="container">
+            <img class="img-click-style" src="img/icon-cross.svg">
             <div class="text-center m-5"><p class="color-white g-font-size-22">Дом сказок «Жили-были» (Москва)</p></div>
             <div class="g-bg-white-opacity-0_9 d-inline-block p-5 br-20">
-              <div class="col-6 float-right"><img class="w-100 br-20" src="img/museum/domskazok.jpg"></div>
-              <div class="col-6 float-left">
-                <p>Образ змеи — один из самых распространенных в мировой культуре. Он встречался у древних египтян и вавилонян, в фольклоре европейских, африканских, американских народов. Змея по представлениям древних людей могла перемещаться между миром живых и подземной страной мертвых. А в русском языке слово «змея» и «земля» и вовсе родственные. Славяне верили, что в конце сентября змеи уходят зимовать в теплый Ирий, где живут души покойников.</p>
-                <p>В славянском фольклоре змеи были также связаны со стихиями огня и воды. Например, люди верили, что огненный змей мог приходить к женщинам по ночам. А также считали, что в виде летающих и огненных змеев могут представать черти или покойники.</p>
-                <p>Колодцы, родники, реки и моря — типичные места обитания фольклорных змеев. Также живут сказочные змеи в горах или пещерах. Так и появилось русское отчество самого популярного русского чудища — Горыныч.</p>
+              <div class="col-12 col-lg-6 float-right"><img class="w-100 br-20" src="img/museum/domskazok.jpg"></div>
+              <div class="col-12 col-lg-6 float-left">
+                <p>Это настоящий дворец сказок в русском стиле с чердаками и подвалами. Внутри находится множество древних предметов: от прялок и скалок до лошадиных седел и упряжи.</p>
+                <p>Гости Дома сказок переодеваются в костюмы сказочных персонажей и вместе с любимыми персонажами (Котом ученым, Золушкой и Бабой-Ягой) отправляются в путешествие по сказкам.</p>
+                <p>Это один из немногих музеев, где экспонаты можно трогать руками: мельницы, люльки, старый бабушкин сундук.</p>
+                <p>Музей знакомит детей с традициями и обычаями разных народов, рассказывает о писателях и художниках - сказочниках.</p>
               </div>
             </div>
           </div>

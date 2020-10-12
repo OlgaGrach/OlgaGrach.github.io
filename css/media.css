@@ -239,6 +239,12 @@
     .g-font-size-40{
         font-size: 2rem !important;
     }
+    .p-0-6{
+        padding: 0 !important;
+    }
+    .g-pb-150 {
+         padding-bottom: 1rem !important;
+    }
     /*.bg-info-story{*/
         /*background-image: url("../img/story/cat-anime.gif");*/
         /*background-position: left top;*/

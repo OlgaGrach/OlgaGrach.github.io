@@ -1,5 +1,11 @@
 @import "media.css";
 
+body{
+    background-image: url("../img/story/cat-anime.gif");
+    background-size: 300%;
+    background-position: left top;
+}
+
 #hero {
     height: 500px!important;
     overflow: hidden;
@@ -29,13 +35,6 @@
     z-index: -1;
 }
 
-#hero-mobile {
-    display: none;
-    background: url("../img/start_img/new/mobile.svg") no-repeat left top/cover;
-    background-size: 235%;
-    height: 598px;
-}
-
 #hero, .layer {
     min-height: 500px !important;
 }
@@ -44,6 +43,16 @@
 /*}*/
 .hamburger-inner{
     background-color: #fff;
+}
+
+#hero-mobile {
+    display: none;
+    background: url("../img/koshei/start-mobile.jpg") no-repeat left top/cover;
+    background-size: 100%;
+    height: 250px;
+}
+.hamburger-inner{
+    background-color: #bf436d;
 }
 .mt-story{
     margin-top: -25px;

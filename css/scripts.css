@@ -1,5 +1,11 @@
 @import "media.css";
 
+body{
+    background-image: url("../img/story/cat-anime.gif");
+    background-size: 300%;
+    background-position: left top;
+}
+
 .layer-bg {
     background-image: url("../img/story/cat-anime.gif");
     background-position: left top;
@@ -17,6 +23,17 @@
 #hero {
     height: 500px !important;
 }
+
+#hero-mobile {
+    display: none;
+    background: url("../img/redshapka/start-mobile.jpg") no-repeat left top/cover;
+    background-size: 100%;
+    height: 250px;
+}
+/*.hamburger-inner{*/
+    /*background-color: #bf436d;*/
+/*}*/
+
 .footer-img-story{
     height: 150px;
     margin-top: 40px;
@@ -55,4 +72,13 @@
 }
 .u-header__section .nav-link {
     color: #fff;
+}
+.no-gutters {
+    background: rgba(191,67,109,1) !important;
+    border-radius: 20px;
+    padding: 30px 20px 20px 20px;
+    color: white;
+}
+.g-transition--ease-in{
+    box-shadow: rgba(16, 36, 94, 0.4) 0px 2px 6px 0px;
 }
