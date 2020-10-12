@@ -233,6 +233,12 @@
     .img-start-index--top{
         margin-top: -100px !important;
     }
+    .ml-12{
+        margin-left: 12%;
+    }
+    .g-font-size-40{
+        font-size: 2rem !important;
+    }
     /*.bg-info-story{*/
         /*background-image: url("../img/story/cat-anime.gif");*/
         /*background-position: left top;*/
