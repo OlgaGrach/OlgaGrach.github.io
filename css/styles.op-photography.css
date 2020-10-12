@@ -9,7 +9,7 @@ html {
 body {
   font-weight: 400;
   font-size: 1rem;
-  font-family: "Roboto", Arial, sans-serif;
+  /*font-family: "Roboto", Arial, sans-serif;*/
   line-height: 1.6;
   color: #333;
   -webkit-font-smoothing: antialiased;
@@ -9895,7 +9895,7 @@ body .u-icon-v5 {
   position: absolute;
   top: 50%;
   right: 15px;
-  font-family: 'FontAwesome', sans-serif;
+  /*font-family: 'FontAwesome', sans-serif;*/
   color: #f00;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -17823,7 +17823,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 
 .u-searchform-v1 .form-control,
 .u-searchform-v1--align-left .form-control {
-  font-family: "Roboto", Arial, sans-serif;
+  /*font-family: "Roboto", Arial, sans-serif;*/
   font-size: 0.85714rem;
 }
 
@@ -17848,7 +17848,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   Searchform v2
 ------------------------------------*/
 .u-searchform-v2 .form-control {
-  font-family: "Roboto", Arial, sans-serif;
+  /*font-family: "Roboto", Arial, sans-serif;*/
   font-weight: 600;
   font-size: 0.85714rem;
   color: rgba(255, 255, 255, 0.85);
@@ -17926,7 +17926,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 }
 
 .u-searchform-v3 .form-control {
-  font-family: "Roboto", Arial, sans-serif;
+  /*font-family: "Roboto", Arial, sans-serif;*/
   font-weight: 300;
   font-size: inherit;
   color: inherit;
@@ -17983,7 +17983,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   Searchform v4
 ------------------------------------*/
 .u-searchform-v4 .form-control {
-  font-family: "Roboto", Arial, sans-serif;
+  /*font-family: "Roboto", Arial, sans-serif;*/
   font-size: 0.85714rem;
   width: 20rem;
   padding: 0.71429rem 2.85714rem 0.71429rem 0.71429rem;
@@ -18048,7 +18048,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 }
 
 .u-searchform-v5 .form-control {
-  font-family: "Roboto", Arial, sans-serif;
+  /*font-family: "Roboto", Arial, sans-serif;*/
   font-size: 0.85714rem;
   text-transform: uppercase;
   color: #777;
@@ -24687,7 +24687,7 @@ img.u-block-hover__main--magnifier-top-left {
   width: 35px;
   height: 35px;
   font-size: 12px;
-  font-family: "FontAwesome";
+  /*font-family: "FontAwesome";*/
   color: #fff;
   line-height: 35px;
   background: #333;
@@ -31384,15 +31384,15 @@ pre[class*="language-"] .toolbar-item a {
   Typography Font Family
 ------------------------------------*/
 .g-font-secondary {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
 }
 
 .g-font-code {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /*font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;*/
 }
 
 .g-font-niconne {
-  font-family: "Niconne", cursive;
+  /*font-family: "Niconne", cursive;*/
 }
 
 /*------------------------------------

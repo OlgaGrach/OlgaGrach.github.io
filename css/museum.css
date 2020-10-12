@@ -31,7 +31,7 @@ body{
     height: 250px;
 }
 .hamburger-inner{
-    background-color: #fff;
+    background-color: #bf436d;
 }
 /*.footer-img-story{*/
     /*height: 150px;*/
@@ -88,5 +88,7 @@ body{
 .br-25{
     border-radius: 2rem;
 }
-
+.mt-media-museum{
+    margin-top: 180px;
+}
 

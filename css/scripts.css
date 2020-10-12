@@ -30,9 +30,9 @@ body{
     background-size: 100%;
     height: 250px;
 }
-/*.hamburger-inner{*/
-    /*background-color: #bf436d;*/
-/*}*/
+.hamburger-inner{
+    background-color: #bf436d;
+}
 
 .footer-img-story{
     height: 150px;
@@ -74,11 +74,22 @@ body{
     color: #fff;
 }
 .no-gutters {
-    background: rgba(191,67,109,1) !important;
+    background: #fff !important;
+    border: 2px #bf436d double;
     border-radius: 20px;
     padding: 30px 20px 20px 20px;
-    color: white;
+    box-shadow:rgba(16, 36, 94, 0.4) 0px 2px 6px 0px;
 }
 .g-transition--ease-in{
     box-shadow: rgba(16, 36, 94, 0.4) 0px 2px 6px 0px;
+}
+.mt-media-scripts{
+    margin-top: 160px;
+}
+@media only screen and (max-width: 1080px){
+    .layer-4 {
+        margin-top: -90px;
+        background: url("../img/redshapka/plan3.jpg")50% 100% no-repeat;
+        background-size: 120%;
+    }
 }

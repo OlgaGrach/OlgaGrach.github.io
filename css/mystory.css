@@ -127,3 +127,10 @@ background-image: url("../img/koshei/plan-anime.png");
 .u-header__section .nav-link {
     color: #fff;
 }
+
+.js-header-change-moment.u-header__section .nav-link {
+    color: #352166;
+}
+.mt-media-mystory{
+    margin-top: 160px;
+}

@@ -42,6 +42,9 @@
 /*}*/
 
 @media only screen and (max-width: 1080px){
+    .u-header__section .nav-link {
+        color: #352166;
+    }
     .mt--200 {
          margin-top: 0px;
     }
@@ -110,6 +113,18 @@
         margin-left: -20px;
         padding-left: 20px;
         background: rgba(255, 255, 255, .9);
+    }
+    .mt-media-museum{
+        margin-top: 10%;
+    }
+    .mt-media-person{
+        margin-top: 10%;
+    }
+    .mt-media-scripts{
+        margin-top: 10%;
+    }
+    .mt-media-mystory{
+        margin-top: 10%;
     }
 }
 
@@ -244,6 +259,10 @@
     }
     .g-pb-150 {
          padding-bottom: 1rem !important;
+    }
+    .no-gutters {
+        border: none;
+        box-shadow: none;
     }
     /*.bg-info-story{*/
         /*background-image: url("../img/story/cat-anime.gif");*/

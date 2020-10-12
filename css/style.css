@@ -1,5 +1,9 @@
 @import "media.css";
 
+body{
+    font-family: "Roboto", Arial, sans-serif !important;
+}
+
 #hero {
   /*height: 800px;*/
   overflow: hidden;
@@ -437,6 +441,9 @@ button:hover .button-text {
 }
 .c-gray-light{
     color: #d5d5d5;
+}
+.c-darkblue-light{
+    color: #312463;
 }
 .c-darkblue{
     color: #211842;

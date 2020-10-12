@@ -26,7 +26,7 @@ body{
 
 #hero-mobile {
     display: none;
-    background: url("../img/person/start-mobile.svg") no-repeat left top/cover;
+    background: url("../img/person/start-mobile.jpg") no-repeat left top/cover;
     background-size: 100%;
     height: 250px;
 }
@@ -53,3 +53,6 @@ body{
     background-size: 80%;
 }
 
+.mt-media-person{
+    margin-top: 150px;
+}
