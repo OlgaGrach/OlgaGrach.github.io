@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="10160624-eda5-47e0-96ae-2843f21415b1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/img/start_img/new/fon.jpg" afterPath="$PROJECT_DIR$/img/start_img/new/fon.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/start_img/new/fon.svg" afterPath="$PROJECT_DIR$/img/start_img/new/fon.svg" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/story.html" afterPath="$PROJECT_DIR$/story.html" />
+      <change beforePath="$PROJECT_DIR$/img/start_img/start-img.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/start_img/start-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/start_img/start-img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/start_img/start-img2.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +33,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="story.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index-start-img.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index-start-img.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-561">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="media.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/media.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="story.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/story.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="334">
@@ -90,10 +109,10 @@
         <option value="$PROJECT_DIR$/css/scripts.css" />
         <option value="$PROJECT_DIR$/css/mystory.css" />
         <option value="$PROJECT_DIR$/mystory.html" />
-        <option value="$PROJECT_DIR$/css/media.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/story.html" />
+        <option value="$PROJECT_DIR$/css/media.css" />
       </list>
     </option>
   </component>
@@ -137,6 +156,11 @@
               <item name="diplom" type="b2602c69:ProjectViewProjectNode" />
               <item name="diplom" type="462c0819:PsiDirectoryNode" />
               <item name="books" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diplom" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,16 +284,15 @@
       <option name="presentableId" value="Default" />
       <updated>1602491885562</updated>
       <workItem from="1602491887509" duration="4482000" />
-      <workItem from="1602496993851" duration="23586000" />
+      <workItem from="1602496993851" duration="24684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28068000" />
+    <option name="totallyTimeSpent" value="29166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922202" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -563,11 +586,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/media.css">
+    <entry file="file://$PROJECT_DIR$/story.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="129" column="24" lean-forward="false" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="334">
+          <caret line="468" column="55" lean-forward="false" selection-start-line="468" selection-start-column="55" selection-end-line="468" selection-end-column="55" />
+          <folding>
+            <element signature="n#header#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -585,17 +614,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/story.html">
+    <entry file="file://$PROJECT_DIR$/css/index-start-img.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="468" column="55" lean-forward="false" selection-start-line="468" selection-start-column="55" selection-end-line="468" selection-end-column="55" />
-          <folding>
-            <element signature="n#header#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="-561">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

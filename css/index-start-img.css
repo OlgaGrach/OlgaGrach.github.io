@@ -36,7 +36,7 @@ body{
 
 #hero-mobile {
   display: none;
-  background: url("../img/start_img/mobile.jpg") no-repeat left top/cover;
+  background: url("../img/start_img/mobile.gif") no-repeat left top/cover;
   background-size: 170%;
   height: 598px;
 }
