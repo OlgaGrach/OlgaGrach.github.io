@@ -621,3 +621,8 @@ button:hover .button-text {
     float: right;
     cursor: pointer;
 }
+.df-lightbox-close {
+    margin: 30px 30px 0 0 !important;
+    color: #ffffff !important;
+    background-color: #bf436d !important;
+}
